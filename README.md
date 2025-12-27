@@ -39,41 +39,55 @@ Key Activities: Agriculture, tourism, administration
 
 ### Ancillary Data
 >Administrative boundaries from GADM
+
 >Visual validation using Google Earth
 
 ## ⚙️ Methodology (Overview)
 ### Data Preprocessing
 >Scene selection (cloud & season control)
+
 >Band selection
+
 >Atmospheric correction
+
 >Image clipping to AOI
+
 >Reprojection and alignment
 
 ### Spectral Index Analysis
 >NDVI – vegetation health
+
 >NDBI – built-up area detection
+
 >Threshold-based urban classification
 
 ### Temporal Analysis
 >Annual & monthly urban extent calculation
+
 >Growth rate and seasonal pattern analysis
 
 ### Change Detection
 >Pixel-wise comparison (2015 vs 2025)
+
 >Same-season comparison to reduce false change
 
 ### Vegetation & Land Cover Analysis
 >NDVI trend analysis
+
 >Estimation of land-use conversion
 
 ### Potential Growth Area Mapping
 >Multi-criteria suitability analysis
+
 >Weighted overlay classification (5 zones)
 
 ### Predictive Modeling
 >ARIMA
+
 >Prophet
+
 >Random Forest Regression
+
 >Urban growth projection (2026–2030)
 
 ## 🛠️ Tech Stack
@@ -86,7 +100,9 @@ rasterio,geopandas, numpy, pandas, matplotlib, seaborn, plotly, scipy
 
 ### Data Formats
 >GeoTIFF – raster outputs
+
 >CSV – statistical data
+
 > GeoJSON – vector boundaries
 
 
@@ -115,4 +131,5 @@ Automated monitoring dashboard
 
 Key references include NDVI/NDBI foundational studies, USGS Landsat documentation, and Sri Lankan urban planning resources.
 (See full reference list in the project report.)
+
 
