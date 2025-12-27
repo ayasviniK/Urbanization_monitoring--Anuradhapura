@@ -26,10 +26,15 @@ Key Activities: Agriculture, tourism, administration
 ## 🛰️ Data Sources
 ### Satellite Imagery
 >Source: USGS EarthExplorer
+
 >Satellite: Landsat 8
+
 >Product: Collection 2 – Level 2 Surface Reflectance
+
 >Spatial Resolution: 30 m
+
 >Temporal Coverage: 2015–2025
+
 >Scenes Used: 100+ (multi-temporal)
 
 ### Ancillary Data
@@ -110,3 +115,4 @@ Automated monitoring dashboard
 
 Key references include NDVI/NDBI foundational studies, USGS Landsat documentation, and Sri Lankan urban planning resources.
 (See full reference list in the project report.)
+
