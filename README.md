@@ -4,23 +4,31 @@ Satellite-based urban growth analysis using Landsat imagery and geospatial data 
 
 ## 📌 Project Description
 
-This project analyzes urbanization trends from 2015 to 2025 in Anuradhapura District using Landsat 8 satellite imagery.
+#### This project analyzes urbanization trends from 2015 to 2025 in Anuradhapura District using Landsat 8 satellite imagery.
 It focuses on detecting urban growth, evaluating land cover and vegetation changes, and identifying potential future development zones to support sustainable urban planning and environmental management.
 
-The study combines remote sensing, GIS, and time-series analysis using Python.
+#### The study combines remote sensing, GIS, and time-series analysis using Python.
 
 ## 🎯 Key Objectives
 Monitor spatial and temporal urban expansion (2015–2025)
+
 Detect urban land cover changes using spectral indices
+
 Analyze vegetation trends using NDVI
+
 Perform change detection between baseline and endpoint years
+
 Identify potential future urban growth areas
+
 Generate maps, graphs, and analytical visual outputs
 
 ## 📍 Study Area
 Location: Anuradhapura District, North Central Province, Sri Lanka
+
 Significance: UNESCO World Heritage region
+
 Climate: Dry zone
+
 Key Activities: Agriculture, tourism, administration
 
 ## 🛰️ Data Sources
@@ -108,28 +116,36 @@ rasterio,geopandas, numpy, pandas, matplotlib, seaborn, plotly, scipy
 
 ## 📊 Key Findings (Summary)
 Urban area increased from ~35.30 km² (2015) to ~36.94 km² (2025)
+
 Net urban growth of ~1.64 km²
+
 Expansion concentrated along major transport corridors
+
 District-wide vegetation improved (NDVI: 0.18 → 0.29)
+
 Agricultural land was the main contributor to urban expansion
+
 High-potential future growth zones identified near existing infrastructure
 
 ## ⚠️ Limitations
 30 m resolution limits small-scale urban feature detection
+
 No ground-truth accuracy assessment
+
 Predictive models based only on historical trends
 
 ### 🔮 Future Improvements
 
 High-resolution imagery integration
+
 Inclusion of socio-economic data
+
 Urban heat island and flood risk analysis
+
 Automated monitoring dashboard
 
 
 ## 📚 References
 
 Key references include NDVI/NDBI foundational studies, USGS Landsat documentation, and Sri Lankan urban planning resources.
-(See full reference list in the project report.)
-
 
