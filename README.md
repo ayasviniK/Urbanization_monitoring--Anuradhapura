@@ -122,4 +122,9 @@ Automated monitoring dashboard
 
 Key references include NDVI/NDBI foundational studies, USGS Landsat documentation, and Sri Lankan urban planning resources.
 
+# 👥 Contributors
+- @ayasviniK
+- @Sadukasam09 
+- @
+
 
